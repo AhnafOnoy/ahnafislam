@@ -4620,3 +4620,85 @@ input.main-search-input::placeholder {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+/* ===== Contact Section ===== */
+
+.contact-social-section {
+  text-align: center;
+  padding: 80px 0 60px;
+  position: relative;
+  background-color: #df3940;
+}
+
+/* Title Wrapper */
+.contact-title-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+/* Main Title */
+.contact-main-title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Big Background Text */
+.contact-bg-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 110px;
+  font-weight: 800;
+  color: rgba(255, 243, 243, 0.06); /* faded effect */
+  white-space: nowrap;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Social Icons Layout */
+.contact-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Social Buttons */
+.contact-social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  font-size: 36px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Brand Colors */
+.contact-social-btn:nth-child(1) {
+  background: linear-gradient(45deg, #184dab, #084464, #12497c, #0b3699);
+}
+
+.contact-social-btn:nth-child(2) {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.contact-social-btn:nth-child(3) {
+  background: linear-gradient(45deg, #f52929, #cf1d1d, #370a0a, #4e0707);
+}
+
+.contact-social-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  color: #757575;
+}
